@@ -10,24 +10,18 @@ import static org.junit.Assert.assertEquals;
 public class BalancedBracketsTest {
 
     @Test
-    public void areBracketsBalancedTest1() {
-
+    public void test1() {
         assertEquals(true, BalancedBrackets.areBracketsBalanced("{[()]}'"));
-
     }
 
     @Test
-    public void areBracketsBalancedTest2() {
-
+    public void test2() {
         assertEquals(false, BalancedBrackets.areBracketsBalanced("'{[(])}'"));
-
     }
 
     @Test
-    public void areBracketsBalancedTest3() {
-
+    public void test3() {
         assertEquals(true, BalancedBrackets.areBracketsBalanced("{{[[(())]]}}'"));
-
     }
 
 }
